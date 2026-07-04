@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+/* ****************************CSS for Carousels ***************************************/
+
+.carousel-image1{
+    background-image: url(../../assets/images/intro-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:650px;
+    background-color: hsla(0, 0%,0%,0.8);
+}
+
+.carousel-image2{
+    background-image: url(../../assets/images/qwerr.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:650px;
+    background-color: hsla(0, 0%,0%,0.8);
+}
+
+.hsla{
+    width:100%;
+    height:650px;
+    background-color: hsla(0, 0%,0%,0.7);
+}
+
+.header-txt{
+    text-align: center;
+    color:white;
+    font-family: 'Allura', cursive !important;
+    padding-top: 100px; 
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.carousel-txt2{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color:  rgb(156, 173, 156);
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.button-ctrl{
+    width:19%;
+}
+
+.button-design{
+    margin-top: 50px;
+    padding:10px 15px;
+    border-radius: 15px;
+}
+
+.button1:hover{
+    color:rgb(205, 100, 100)
+}
+
+.button2:hover{
+    background-color: rgb(224, 146, 146);
+    color:white;
+}
+
+/* ****************************CSS for Recipes ***************************************/
+
+.Recipes-ctrl{ 
+    width:80%;
+    margin-bottom:100px
+}
+
+.border-line{
+    width:10%;
+    border-top: 1px solid rgb(196, 149, 149);
+}
+
+/* ****************************CSS forRecipes-Card ***************************************/
+
+.cards-ctrl{
+    margin-top: 70px;
+}
+.Read{
+    margin-top: 30px;
+    text-align: right;
+    font-weight: 300 !important;
+    color:#3a3ae4;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.card-title
+{
+    font-family: 'Allura', cursive !important;
+    color: teal !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card{
+    border:1px solid rgb(230, 245, 245) !important;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 10px 1px rgb(58, 91, 91) ;
+}
+
+/* ****************************CSS for Menu ***************************************/
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+ .hsla-hover:hover{
+    background-color: hsla(0, 0%,0%,0.7);
+ }
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
